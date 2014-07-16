@@ -1,0 +1,13 @@
+
+
+{{#each tags}}
+  {{#is tag "foo"}}
+<ul class="nav nav-justified nav-pill">
+           {{#each pages}}
+        <li{{#if this.isCurrentPage}} class="active"{{/if}}>
+          <a href="{{relative dest this.dest}}">{{ data.title }}</a>
+        </li>
+    {{/each}}
+        </ul>
+     {{/is}}
+{{/each}}

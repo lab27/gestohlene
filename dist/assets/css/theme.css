@@ -1,0 +1,88 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background:url(../img/ag.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.bgwrap {
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,.7);
+	height: 100%;
+/*	padding-top: 100px;*/
+	z-index:-1;
+}
+
+h1.weekday {
+	color:#fff;
+	font-weight:100;
+	margin-bottom: 20px;
+	padding-top:120px;
+}
+
+.theme-dropdown .dropdown-menu {
+  display: block;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.jumbotron {
+	color:#fff;
+	background-color:rgba(0,0,0,.7);
+	background:none;
+}
+
+.jumbotron p {
+	/*font-family: Parisienne, cursive;*/
+	font-size:1.4em;
+}
+
+.btn {
+
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.navbar-inverse {
+	background-image:none;
+	background-color:rgba(0,0,0,.5);
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-weight: 800
+}
+
+table {
+	color:#fff;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+	background: rgba(0,0,0,.9);
+}
+
+.days>li>a {
+	background:rgba(0,0,0,.3);
+	margin: 2px;
+	color:#eee;
+}
+
+.days>li>a:hover {
+	background:rgba(0,0,0,.9);
+}
