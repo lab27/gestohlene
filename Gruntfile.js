@@ -22,6 +22,16 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
 
+  //   criticalcss: {
+  //   options: {
+  //     url: 'localhost:4000',
+  //     width: 1200,
+  //     height: 900,
+  //     outputfile: 'dist/assets/css/critical.css',
+  //     filename: '/css'
+  //   }
+  // },
+
     config: {
       src: 'src',
       dist: 'dist'
@@ -87,6 +97,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-criticalcss');
 
   grunt.registerTask('server', [
     'clean',
